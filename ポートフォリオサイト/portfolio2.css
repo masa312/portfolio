@@ -1,0 +1,71 @@
+@charset "UTF-8";
+html {
+    font-size: 100%;
+    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+}
+
+header{
+    background-color:#ffffff;
+    padding:20px 40px ;
+    height: 40px;
+}
+h1{
+    font-weight:1;
+    text-align:center;
+    margin: 0px;
+    
+
+}
+p{
+    text-align:center;
+    margin: 0px;
+    color: rgb(180, 197, 218);
+    font-weight: bolder;
+}
+.contentsu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    margin-bottom: 20px;
+    grid-template-rows: 300px 300px;
+    margin-top: 3%;
+    
+    
+    min-height: 100vh
+    width: 250px;
+    text-align:center;
+    animation: fadeIn 1.5s ease 2.0s 1 normal;
+}
+
+  
+  .contentsu img {
+    width: 250px;
+    padding-top: 50px;
+    animation: fadeIn 1.5s ease 2.0s 1 normal;
+    transition: 1.0s ;
+  }
+  .contentsu img:hover {
+	opacity: 0.5 ;
+}
+.background{
+    background-color: rgb(236, 240, 245);
+    min-height: 100vh
+    
+}
+.Item{
+    position: relative;
+}
+.Item a {
+color: #ffffff;
+padding-bottom: 10px;
+font-size: large;;
+font-weight: bold;
+
+}
+.item{
+   
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}

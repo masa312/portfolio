@@ -1,0 +1,50 @@
+@charset "UTF-8";
+html {
+    font-size: 100%;
+}
+h1{
+    text-align: center;
+}
+section{
+   margin-top: 10px;
+   display: flex;
+   gap: 80px;
+   padding-left: 400px;
+    background-color: rgb(236, 240, 245);
+    min-height: 100vh
+    
+}
+  
+
+.menue{
+    background-position: center;
+    padding-top: 60px;
+}
+.curry{
+    font-weight: bold;
+    font-size: 20px;
+    color: darkgoldenrod;
+    padding-bottom: 30px;
+}
+.jiro{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 140px;
+    color: rgb(158, 158, 68);
+    padding-bottom: 30px;
+}
+.chuka{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 80px;
+    color: orangered;
+    padding-bottom: 30px;
+}
+.contentsu img {
+    width: 250px;
+    padding-top: 50px;
+}
+.contentsu{
+    background-position: center;
+    padding-top: 30px;
+}

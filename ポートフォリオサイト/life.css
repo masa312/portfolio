@@ -1,0 +1,49 @@
+@charset "UTF-8";
+html {
+    font-size: 100%;
+}
+h1{
+    text-align: center;
+}
+section{
+   
+   display: flex;
+   gap: 80px;
+   padding-left: 350px;
+    background-color: rgb(236, 240, 245);
+    min-height: 100vh
+    
+}
+  
+
+.menue{
+    background-position: 500px;
+    padding-top: 50px;
+}
+.morning{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(228, 108, 33);
+    text-align: left;
+    padding-bottom: 30px;
+}
+.evening{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 210px;
+    color: rgb(121, 75, 235);
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+
+
+
+.contentsu img {
+    width: 250px;
+    
+}
+.contentsu{
+    background-position: center;
+    padding-top: 80px;
+}

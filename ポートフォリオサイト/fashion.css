@@ -1,0 +1,48 @@
+@charset "UTF-8";
+html {
+    font-size: 100%;
+}
+h1{
+    text-align: center;
+}
+section{
+   margin-top: 10px;
+   display: flex;
+   gap: 80px;
+   padding-left: 300px;
+    background-color: rgb(236, 240, 245);
+    min-height: 100vh
+    
+}
+
+
+.menue{
+    background-position: center;
+    padding-top: 80px;
+}
+.brand{
+    padding-top:39px ;
+    font-weight: bold;
+    font-size:20px;
+    color: darkgoldenrod;
+    padding-bottom: 30px;
+    text-align: left;
+}
+.sumari{
+
+}
+    
+.drole{
+    padding-top:300px ;
+}
+.fresh{
+    padding-top:250px ;
+}
+.contentsu img {
+    width: 250px;
+    padding-top: 50px;
+}
+.contentsu{
+    background-position: center;
+    padding-top: 30px;
+}
