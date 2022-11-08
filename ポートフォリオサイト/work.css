@@ -70,15 +70,16 @@ body{
 }
 .Item3 img{
     padding-top: 20px;
-    width: 350px;
+    width: 340px;
+    padding-left: 30px;
 
 }
 .Item4 img{
- 
+    padding-left: 30px;
    size: 20%;
 }
 .Item5 img{
- 
+    padding-left: 30px;
     width: 150px;
  }
 
